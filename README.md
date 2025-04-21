@@ -32,7 +32,7 @@ The solution consists of the following key elements:
 - **Docker Image**  
   Pull `pengbai/docker-supermario:latest` from Docker Hub and run it via Docker Compose.
 
-## Deployment (AWS Console)
+## Deployment
 
 1. **Network Setup**  
    Use the AWS Console to create the VPC, subnet, Internet Gateway, and route table.
