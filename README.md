@@ -18,7 +18,7 @@ The solution consists of the following key elements:
 ## Components & File Structure
 
 - **VPC & Subnet**  
-  Create a VPC (e.g. 10.0.0.0/16) and a public subnet (e.g. 10.0.1.0/24).
+  Create a VPC with public subnet.
 
 - **Internet Gateway & Route Table**  
   Attach an Internet Gateway and configure a route table for outbound Internet access.
@@ -66,6 +66,6 @@ docker run --rm -p <HOST_PORT>:<CONTAINER_PORT> pengbai/docker-supermario:latest
 Congratulations on completing this project! You’ve successfully configured AWS networking and security, launched and prepared an EC2 instance, and deployed a containerized application from Docker Hub. These achievements lay the groundwork for more advanced cloud-native development and operations—keep exploring and building on these skills.
 
 <p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2sxdWNxZXhsMmtqNmtkYmM2bHcwZmUzbWl1azdvemdpNXhqc29ldSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g9582DNuQppxC/giphy.gif" width="70%">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2sxdWNxZXhsMmtqNmtkYmM2bHcwZmUzbWl1azdvemdpNXhqc29ldSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g9582DNuQppxC/giphy.gif" width="70%">
 </p>
 
