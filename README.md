@@ -66,7 +66,7 @@ docker run --rm -p <HOST_PORT>:<CONTAINER_PORT> pengbai/docker-supermario:latest
 Congratulations on completing this project! You’ve successfully configured AWS networking and security, launched and prepared an EC2 instance, and deployed a containerized application from Docker Hub. These achievements lay the groundwork for more advanced cloud-native development and operations—keep exploring and building on these skills.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/g9582DNuQppxC/giphy.gif" width="70%" />
+  <img src="https://i.giphy.com/media/g9582DNuQppxC/giphy.gif" width="70%">
 </p>
 
 
