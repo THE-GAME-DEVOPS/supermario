@@ -29,7 +29,7 @@ The solution consists of the following key elements:
 4. **Instance Configuration**  
    Install Docker — either automatically via EC2 User Data or manually through the terminal.
 
-## Steps to run container
+## Steps To Run Container
 
 ```bash
 
