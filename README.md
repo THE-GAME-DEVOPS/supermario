@@ -8,7 +8,7 @@ The solution consists of the following key elements:
 
 - **VPC & Networking**: Dedicated VPC with a public subnet, Internet Gateway, and routing rules.
 - **Security**: Security Group allowing SSH for administration and your chosen application traffic port.
-- **Compute**: EC2 instance launched in the public subnet; Docker installed.
+- **Compute**: EC2 instance launched in the public subnet; [Docker installed](https://docs.docker.com/get-started/get-docker/).
 - **Container Deployment**: Running the `pengbai/docker-supermario:latest` image to serve the application.
 
 ## Architecture Diagram
@@ -43,7 +43,7 @@ docker run --rm -p 8600:8080 pengbai/docker-supermario:latest
 - `--rm` automatically removes the container when it stops.
 - `-p 8600:8080` maps a port on the host to the container’s internal port.
 - After running, open `http://localhost:8600` or `http://<IP_SERVER>:8600` to verify the application.
-- Link to DockerHub image ([Super Mario](https://hub.docker.com/r/pengbai/docker-supermario)).
+- Link to [DockerHub image](https://hub.docker.com/r/pengbai/docker-supermario).
 
 ## Final Thoughts
 
